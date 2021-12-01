@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="noticeboardOK.jsp" method="post">
+	게시물번호:<input type="number" name="no"><br>
+	작성자이름:<input type="name" name="name"><br>
+	작성자이메일:<input type="email" name="email"><br>
+	글제목:<input type="text" name="title"><br>
+	글암호:<input type="password" name="pwd"><br>
+	글내용: <br><textarea rows="10" cols="80" name="contents"></textarea><br>
+	카테고리<select name="category">
+		<option value="공지사항">공지사항</option>
+		<option value="자유게시판">자유게시판</option>
+		<option value="묻고답하기">묻고답하기</option>
+	</select><br>
+	<input type="submit" value="등록">
+</form>
+</body>
+</html>
