@@ -1,0 +1,41 @@
+## css와 박스모델
+
+-블록 레벨 요소
+:요소를 삽입했을 때 혼자 한 줄을 차지하는 요소
+<div>,<p> 등
+
+-인라인 레벨 요소
+:줄을 차지하지 않는 요소
+<img>,<strong> 등
+
+padding, border, margin
+ctl+shitf+i
+
+인라인 레벨 요소로 변경
+div{
+		width: 100px;
+		height: 100px;
+		background: orange;
+		margin: 10px;
+		display: inline-block;
+}
+
+블록 레벨 요소로 변경
+img{
+	display: block;
+}
+
+	#ball img{
+		display: inline;
+	}
+	#stock img{
+		display: block;
+	}
+	
+자식요소 표시할때는 한칸 띄워서 표기
+
+
+
+	
+	
+	
